@@ -1,1 +1,13 @@
-
+spring:
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        health-check-path: /actuator/health
+        health-check-interval: 10s
+        register: true
+  application:
+    name: consul-client
+server:
+  port: 8095
