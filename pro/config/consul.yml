@@ -10,7 +10,7 @@ spring:
   application:
     name: consul-client
 server:
-  port: 8095
+  port: 8097
 management:
   endpoints:
     web:
