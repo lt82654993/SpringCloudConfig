@@ -10,7 +10,10 @@ spring:
   application:
     name: consul-client
 server:
-  port: 8095
+  port: 8097
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*,bus-refresh"
+test: test233
