@@ -16,5 +16,5 @@ management:
     web:
       exposure:
         include: "*,bus-refresh"
-test: test12
+test: test22
   
