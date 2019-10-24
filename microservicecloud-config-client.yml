@@ -8,7 +8,7 @@ spring:
   application:
     name: microservicecloud-config-client
 server:
-  port: 8203
+  port: 8201
 ---
 spring:
   profiles: test #测试环境
