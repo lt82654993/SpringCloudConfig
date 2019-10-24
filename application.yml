@@ -7,12 +7,8 @@ spring:
   profiles: dev  #开发环境
   application:
     name: microservicecloud-config-dev
-  devtools:
-    add-properties: false
 ---
 spring:
   profiles: test #测试环境
   application:
-    name: microservicecloud-config-test1
-  devtools:
-    add-properties: false
+    name: microservicecloud-config-test
