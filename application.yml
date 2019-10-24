@@ -13,6 +13,6 @@ spring:
 spring:
   profiles: test #测试环境
   application:
-    name: microservicecloud-config-test
+    name: microservicecloud-config-test1
   devtools:
     add-properties: false
